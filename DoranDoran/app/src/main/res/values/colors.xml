@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F57141</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#F57141</color>
+    <color name="white">#ffffff</color>
+
+    <color name="background">#efeff4</color>
+
+
+
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+    <color name="indicator">#374b9c</color>
+    <!--  <color name="black_semi_transparent">#aca8ac</color>-->
+    <color name="cardBack">#fbf5f5f5</color>
+    <color name="textColor">#c5c0c0</color>
+    <color name="detailTitle">#374b9c</color>
+    <color name="gray">#999999</color>
+    <color name="black">#000000</color>
+    <color name="blue">#F57141</color>
+    <color name="write">#c5c0c0</color>
+    <color name="banner">#7c7c7c</color>
+    <color name="filter">#374b9c</color>
+    <color name="filter2">#808285</color>
+    <color name="btn">#edfdff</color>
+    <color name="op">#00000000</color>
+
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">도란도란</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinner">카테고리</string>
+    <string name="warning">권리침해, 욕설 및 특정 대상을 비하하는 내용을 게시할 경우 관련 법률에 의해 제재될 수 있습니다.</string>
+</resources>

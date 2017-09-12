@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/join_activity_layout">
+
+    <RelativeLayout
+        android:id="@+id/register_nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/nickname_edit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:hint="닉네임" />
+
+        <Button
+            android:id="@+id/nick_check"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/nickname_edit"
+            android:background="@color/blue"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:text="중복확인"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="닉네임은 회원가입 후 수정이 불가합니다."
+            android:layout_below="@+id/nickname_edit"
+            android:layout_alignLeft="@+id/nickname_edit"
+            android:id="@+id/nickfor"/>
+        <TextView
+            android:id="@+id/choice_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nickfor"
+            android:layout_below="@+id/nickfor"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="소속"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/school_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nickfor"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/choice_text"
+            android:popupBackground="@color/white"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_nick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/warning" />
+
+    <Button
+        android:id="@+id/register_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
+        android:text="가입완료"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

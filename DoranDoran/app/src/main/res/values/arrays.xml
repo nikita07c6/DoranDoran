@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="school_list">
+        <item>건국대학교(글로컬)</item>
+        <item>공군사관학교</item>
+        <item>극동대학교</item>
+        <item>꽃동네대학교</item>
+        <item>서원대학교</item>
+        <item>세명대학교</item>
+        <item>영동대학교</item>
+        <item>우석대학교(진천)</item>
+        <item>중원대학교(진천)</item>
+        <item>청주교육대학교</item>
+        <item>청주대학교</item>
+        <item>충북대학교</item>
+        <item>한국교원대학교</item>
+        <item>한국교통대학교(충주)</item>
+        <item>한국교통대학교(증평)</item>
+        <item>한국방송통신대학교</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>축제</item>
+        <item>봉사</item>
+        <item>알바</item>
+    </string-array>
+</resources>
